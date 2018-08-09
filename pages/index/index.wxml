@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view>
     <view class='draw-home-header'>
-        <img src="{{src}}" class="draw-round-icon" />
+        <image src="{{src}}" model="cover" class="draw-home-icon"></image>
         <span class="draw-home-name">摇了摇头oO</span>
     </view>
 </view>

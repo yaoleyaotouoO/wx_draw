@@ -12,8 +12,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.2.2",
-	"appid": "wx34cfb38dc8e0297c",
-	"projectname": "draw",
+	"appid": "wxdb0076ef521cbce2",
+	"projectname": "wx_draw",
 	"isGameTourist": false,
 	"condition": {
 		"search": {

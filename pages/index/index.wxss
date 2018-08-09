@@ -1,7 +1,8 @@
 /**index.wxss**/
 
 .draw-home-header {
-    height: 200px;
+    height: 100px;
+    background-color: #409eff;
 }
 
 .draw-home-name {
@@ -11,10 +12,10 @@
     padding-top: 40px;
 }
 
-draw-round-icon {
-    padding-top: 10px;
+.draw-home-icon {
     width: 80px;
     height: 80px;
+    margin: 10px;
     border-radius: 50%;
     float: left;
 }

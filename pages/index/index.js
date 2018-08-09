@@ -8,7 +8,8 @@ Page({
         userInfo: {},
         hasUserInfo: false,
         canIUse: wx.canIUse('button.open-type.getUserInfo'),
-        src: "../../images/profile.jpg"
+        src: "../../images/profile.jpg",
+        model: "aspectFit"
     },
     //事件处理函数
     bindViewTap: function() {
@@ -17,6 +18,7 @@ Page({
         })
     },
     onLoad: function() {
+        console.log("src: ", this.data.src);
         if (app.globalData.userInfo) {
             this.setData({
                 userInfo: app.globalData.userInfo,

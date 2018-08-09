@@ -1,0 +1,10 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+      "navigationBarBackgroundColor": "#409eff",
+      "navigationBarTitleText": "你画我猜"
+  }
+}

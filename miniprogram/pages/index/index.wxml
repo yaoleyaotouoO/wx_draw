@@ -1,0 +1,55 @@
+<view>
+  <view class='draw-home-header'>
+    <button wx:if="{{!hasUserInfo}}" open-type="getUserInfo" bindgetuserinfo="bindgetuserinfo" class='draw-home-userinfo'></button>
+    <open-data type="userAvatarUrl" class="draw-home-icon"></open-data>
+    <open-data type="userNickName" class="draw-home-name"></open-data>
+    <!-- <image src="{{userInfo.avatarUrl}}" model="cover" class="draw-home-icon"></image>
+    <text class="draw-home-name">{{userInfo.nickName}}</text> -->
+  </view>
+
+  <view>
+    <view class="weui-flex">
+      <view class="weui-flex__item">
+        <view class="draw-home-placeholder">
+          <i class=""></i>
+          <p>玩法</p>
+        </view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="draw-home-placeholder">
+          <i class=""></i>
+          <p>排行榜</p>
+        </view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="draw-home-placeholder">
+          <i class=""></i>
+          <p>公告</p>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view>
+    <view class="weui-flex">
+      <view class="draw-home-col-14">
+        <view class="draw-home-placeholder">weui</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="draw-home-placeholder">weui</view>
+      </view>
+    </view>
+  </view>
+
+  <!-- <view class="weui-media-box weui-media-box_appmsg">
+    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+      <image class="weui-media-box__thumb" src="{{icon60}}" />
+    </view>
+    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+      <view class="weui-media-box__title">创建房间</view>
+      <view class="weui-media-box__desc">约好友一起来玩</view>
+    </view>
+  </view> -->
+
+
+</view>

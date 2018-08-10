@@ -1,0 +1,45 @@
+@import 'weui.wxss';
+
+.draw-col-2 {
+  flex: 0 0 8.333333%;
+}
+
+.draw-col-4 {
+  width: 16.66666%;
+}
+
+.draw-col-6 {
+  width: 25%;
+}
+
+.draw-col-8 {
+  width: 33.33333%;
+}
+
+.draw-col-10 {
+  width: 41.66666%;
+}
+
+.draw-col-12 {
+  width: 50%;
+}
+
+.draw-col-14 {
+  width: 58.33333%;
+}
+
+.draw-col-16 {
+  width: 66.66666%;
+}
+
+.draw-col-18 {
+  width: 75%;
+}
+
+.draw-col-20 {
+  width: 83.33333%;
+}
+
+.draw-col-22 {
+  width: 91.66666%;
+}

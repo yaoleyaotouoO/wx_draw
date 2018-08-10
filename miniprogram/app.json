@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "plugins": {
+    "myPlugin": {
+      "version": "dev",
+      "provider": "wxdb0076ef521cbce2"
+    }
+  },
+  "window": {
+    "navigationBarBackgroundColor": "#409eff",
+    "navigationBarTitleText": "你画我猜"
+  }
+}

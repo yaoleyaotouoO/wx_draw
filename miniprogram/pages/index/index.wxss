@@ -1,0 +1,43 @@
+.draw-home-header {
+  height: 100px;
+  background-color: #409eff;
+}
+
+.draw-home-name {
+  float: left;
+  color: black;
+  padding-left: 15px;
+  padding-top: 40px;
+}
+
+.draw-home-icon {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  border-radius: 50%;
+  float: left;
+}
+
+.draw-home-userinfo {
+  opacity: 0;
+  position: absolute;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+}
+
+.draw-home-placeholder {
+  margin: 5px;
+  padding: 0 10px;
+  text-align: center;
+  background-color: #ebebeb;
+  height: 2.3em;
+  line-height: 2.3em;
+  color: black;
+}
+
+.draw-home-col-14 {
+  flex: 0 0 60%;
+}

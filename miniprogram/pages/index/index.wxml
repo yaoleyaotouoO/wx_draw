@@ -32,10 +32,10 @@
 
   <view>
     <view class="weui-flex">
-      <view class="draw-home-col-14">
+      <view class="draw-flex-col-14">
         <view class="draw-home-placeholder">weui</view>
       </view>
-      <view class="weui-flex__item">
+      <view class="draw-flex-col-10">
         <view class="draw-home-placeholder">weui</view>
       </view>
     </view>

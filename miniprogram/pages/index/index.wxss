@@ -37,7 +37,3 @@
   line-height: 2.3em;
   color: black;
 }
-
-.draw-home-col-14 {
-  flex: 0 0 60%;
-}

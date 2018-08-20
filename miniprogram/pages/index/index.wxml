@@ -30,26 +30,31 @@
     </view>
   </view>
 
-  <view>
+  <view class="draw-home-create-card">
     <view class="weui-flex">
       <view class="draw-flex-col-14">
-        <view class="draw-home-placeholder">weui</view>
+        <image src="{{createRoomSrc}}" model="scaleToFill" class="draw-home-create-room-icon"></image>
       </view>
       <view class="draw-flex-col-10">
-        <view class="draw-home-placeholder">weui</view>
+        <text class='draw-home-create-text'>创建房间\n</text>
+        <text class='draw-home-create-text'>约好友一起来画\n</text>
+        <rich-text nodes="{{createRoomNodes}}" bindtap="createRoom"></rich-text>
       </view>
     </view>
   </view>
 
-  <!-- <view class="weui-media-box weui-media-box_appmsg">
-    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
-      <image class="weui-media-box__thumb" src="{{icon60}}" />
+  <view class="draw-home-start-card">
+    <view class="weui-flex">
+      <view class="draw-flex-col-14">
+        <text class='draw-home-create-text'>自由匹配\n</text>
+        <text class='draw-home-create-text'>灵魂画手进阶之路\n</text>
+        <rich-text nodes="{{startGameNodes}}" bindtap="startGame"></rich-text>
+      </view>
+      <view class="draw-flex-col-10">
+        <image src="{{startGameSrc}}" model="scaleToFill" class="draw-home-start-game-icon"></image>
+      </view>
     </view>
-    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
-      <view class="weui-media-box__title">创建房间</view>
-      <view class="weui-media-box__desc">约好友一起来玩</view>
-    </view>
-  </view> -->
+  </view>
 
 
 </view>

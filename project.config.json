@@ -1,12 +1,16 @@
 {
-  "miniprogramRoot": "./miniprogram",
-  "pluginRoot": "./plugin",
-  "compileType": "plugin",
-  "setting": {
-    "es6": true,
-    "newFeature": true
-  },
-  "appid": "wxdb0076ef521cbce2",
-  "projectname": "wx_draw",
-  "condition": {}
+	"miniprogramRoot": "miniprogram/",
+	"pluginRoot": "plugin/",
+	"compileType": "plugin",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"appid": "wxdb0076ef521cbce2",
+	"projectname": "wx_draw",
+	"libVersion": "2.2.5",
+	"condition": {}
 }

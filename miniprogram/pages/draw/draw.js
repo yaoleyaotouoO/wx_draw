@@ -27,7 +27,7 @@ Page({
         text: '立即开始 >'
       }]
     }],
-    createRoomSrc: '../../images/profile.jpg',
+    createRoomSrc: '../../images/1.png',
     startGameSrc: '../../images/2.png'
   },
   onLoad: function() {
@@ -60,17 +60,5 @@ Page({
   },
   startGame: function() {
     console.log('startGame');
-  },
-  findRoom: function() {
-    console.log("findRoom");
-    app.globalData.api.findRoom('test').then(data =>{
-      console.log("data: ", data);
-      wx.redirectTo({
-        url: '/pages/room/room'
-      })
-    });
-  },
-  enterRoomList: function() {
-    console.log("enterRoomList");
   }
 })

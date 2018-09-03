@@ -1,3 +1,8 @@
+import Api from './common/api.js';
+const CONFIG = require('./common/config.js');
+
+const api = new Api();
+
 //app.js
 App({
   onLaunch: function() {
@@ -20,6 +25,7 @@ App({
   },
   globalData: {
     userInfo: null,
-    client: null
+    api,
+    CONFIG
   }
 })

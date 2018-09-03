@@ -66,22 +66,3 @@
   height: 100%;
   float: left;
 }
-
-.draw-home-room-card {
-  margin: 20px 0 0 0;
-}
-
-.draw-home-find-room-btn {
-  height: 60px;
-  width: 95%;
-  background-color: #409eff;
-  color: #fff;
-}
-
-.draw-home-room-list-btn {
-  height: 60px;
-  width: 95%;
-  float: right;
-  background-color: #409eff;
-  color: #fff;
-}

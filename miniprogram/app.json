@@ -1,6 +1,8 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/room/room",
+    "pages/draw/draw"
   ],
   "plugins": {
     "myPlugin": {

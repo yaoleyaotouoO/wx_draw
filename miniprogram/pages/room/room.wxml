@@ -56,14 +56,5 @@
     </view>
   </view>
 
-  <view class="draw-home-room-card">
-    <view class="weui-flex">
-      <view class="draw-flex-col-12">
-        <button class="draw-home-find-room-btn"  size="default" bindtap="findRoom">查找房间</button>
-      </view>
-      <view class="draw-flex-col-12">
-        <button class="draw-home-room-list-btn"  size="default" bindtap="enterRoomList">房间列表</button>
-      </view>
-    </view>
-  </view>
+
 </view>
